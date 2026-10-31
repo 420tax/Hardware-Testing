@@ -4,7 +4,7 @@ Updated: 2026-10-30 (America/New_York)
 
 ## Status
 
-Extended SMART self-test passed. SMART media and interface error counters are clean. Samsung Magician performance benchmark completed. Hard Disk Sentinel Read surface test is pending completion; an earlier run was aborted for a firmware update and is not a completed pass. Full write/read verification (H2testw) is not recorded for this drive.
+Extended SMART self-test passed. SMART media and interface error counters are clean. Samsung Magician performance benchmark completed. Testing is complete under the agreed streamlined bench-reuse procedure. The separate Hard Disk Sentinel Read surface test is optional, not outstanding; no completed surface-test pass is claimed. Full write/read verification (H2testw) is not recorded for this drive.
 
 ## Identity and current configuration
 
@@ -88,7 +88,7 @@ This is a performance benchmark, not full-capacity integrity verification.
 
 ## Hard Disk Sentinel surface test
 
-Read test: awaiting completed report. Earlier attempts were interrupted; do not record them as passes. Final good/damaged/bad block counts, read errors, elapsed time and transfer rates have not yet been supplied.
+Optional Read test waived under the agreed streamlined procedure because the drive has clean SMART counters, a passed extended internal self-test and a completed performance benchmark. Earlier attempts were interrupted and are not passes. No completed surface-test result is recorded.
 
 ## Evidence supplied
 
@@ -103,4 +103,4 @@ Evidence filenames identify user-supplied reports; binary attachments are not up
 
 ## Assessment
 
-Candidate for bench reuse based on clean SMART media counters, passed extended self-test and completed benchmark. Surface-test completion remains outstanding. The failed RAID status alone does not prove SSD failure or SCU hardware failure.
+PASS for bench reuse under the agreed streamlined procedure based on clean SMART media counters, passed extended self-test and completed benchmark. No further surface scan is required unless symptoms or new errors warrant it. The failed RAID status alone does not prove SSD failure or SCU hardware failure.
